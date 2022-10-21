@@ -1,0 +1,44 @@
+
+body {
+  margin-bottom: 50px;
+}
+table {
+    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+th {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+.boton {
+    background: rgb(149, 50, 173);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+/* .boton:hover{
+    background-color: rgb(247, 247, 247);
+} */
+.pantalla1 {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    width: 290px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: right;
+    overflow-y: scroll;
+}
+.contenedor{
+    border-radius: 50px;
+    background-color: rgb(10, 10, 10);
+    width: 34%;
+}
+
+

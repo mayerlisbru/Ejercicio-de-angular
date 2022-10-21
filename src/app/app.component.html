@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio en angular</title>
+</head>
+<body>
+  <div class="contenedor" >
+    <table class="pantalla">
+        <tr>
+            <td><input type="text" id="pantalla" class="pantalla1" [(ngModel)]="pantalla"/></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="pantalla2" class="pantalla2" [(ngModel)]="pantalla2"/></td>
+      
+      </tr>
+    </table>
+    <table>
+        <tr>
+            <th><input type="button" value="/" id="division" class="boton"(click)="division()"/></th>
+            <th><input type="submit" value="%" id="porcentaje"  class="boton"/></th>
+            <th><input type="button" value="C" id="borrarT"  class="boton"(click)="C()"/></th>
+            <th><input type="button" value="⌫" id="eliminar" class="boton"/></th>
+          
+        </tr>
+        <tr>
+            <th><input type="button" value="7" id="siete" class="boton"(click)="siete('7')"/></th>
+            <th><input type="button" value="8" id="ocho" class="boton"(click)="ocho('8')"/></th>
+            <th><input type="button" value="9" id="nueve" class="boton"(click)="nueve('9')"/></th>
+            <th><input type="button" value="*" id="multiplicacion" class="boton"(click)="multiplicacion()"/></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="4" id="cuatro" class="boton"(click)="cuatro('4')"/></th>
+            <th><input type="button" value="5" id="cinco" class="boton"(click)="cinco('5')"/></th>
+            <th><input type="button" value="6" id="seis"  class="boton"(click)="seis('6')"/></th>
+            <th><input type="button" value="-" id="resta" class="boton"(click)="menos()"/></th>
+        </tr>
+        <tr>
+            <th><input type="submit" value="1" id="uno" class="boton" (click)="uno ('1')"/></th>
+            <th><input type="button" value="2" id="dos" class="boton" (click)="dos ('2')"/></th>
+            <th><input type="button" value="3" id="tres" class="boton" (click)="tres('3')"/></th>
+            <th><input type="button" value="+" id="suma" class="boton"(click)="mas()"/></th>
+        </tr>
+        <tr>
+           
+            <th><input type="button" value="0" id="cero" class="boton"(click)="cero('0')"/></th>
+            <th><input type="button" value="," id="decimal" class="boton"(click)="coma(',')"/></th>
+            <th><input type="button" value="." id="punto" class="boton"(click)="('.')"/></th> 
+            <th><input type="button" value="=" id="igual" class="boton"(click)="igual()"/></th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
